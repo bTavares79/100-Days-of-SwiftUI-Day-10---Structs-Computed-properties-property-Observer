@@ -62,7 +62,7 @@ struct Employee2 {
     var vacationAllocated = 14
     var vacationTaken = 0
     
-    // This is a computed property. You can't write to it as it is now.
+    // This is a computed property
     // To write to this you have to provide it a getter and a setter
     var vacationRemaining: Int {
         get{
