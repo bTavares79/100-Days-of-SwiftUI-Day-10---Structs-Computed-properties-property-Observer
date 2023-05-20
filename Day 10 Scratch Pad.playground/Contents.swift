@@ -33,7 +33,7 @@ struct Employee {
     var vacationRemaining = 14
     
     // When trying to write to the internal data of a struct with a function you have to use this word mutating to make this happen
-    // This function is called a method
+    // This function is called a method when inside of a struct
     mutating func takeVacation(days: Int) {
         if vacationRemaining > days {
             vacationRemaining -= days
